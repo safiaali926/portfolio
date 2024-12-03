@@ -6,8 +6,9 @@ function Footer() {
     return (<>
   <footer className="bg-gray-800 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-4 md:p-6 lg:p-8">
   <div>
-    <Image src="/logo.png" alt="image" width={250} height={250} className="mx-auto md:mx-0 mt-7"></Image>
-    <p className="m-7 text-center text-white md:text-left">Company# 434390-656, registered with House of companies.</p>
+    <Image src="/wlogo.png" alt="image" width={250} height={250} className="mx-auto md:mx-0 mt-7"></Image>
+    <p className="mt-7 px-2 text-center text-white md:text-justify">Hi, I'm Safia Ali, a passionate web developer! Let's connect and discuss how I can bring your ideas to life. Contact me to get started!</p>
+    
   </div>
 
   <div>
@@ -19,10 +20,10 @@ function Footer() {
           <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
             <svg className="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
           </div>
-          <input className="block p-3 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Enter your email" type="email" id="email" />
+          <input className="block p-3 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-teal-500 focus:border-teal-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-teal-500 dark:focus:border-teal-500" placeholder="Enter your email" type="email" id="email" />
         </div>
         <div>
-          <button type="submit" className="mx-1 py-3 px-5 w-full text-sm font-medium text-center text-white rounded-lg bg-teal-400 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:bg-teal-400 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Subscribe</button>
+          <button type="submit" className="mx-1 py-3 px-5 w-full text-sm font-medium text-center text-white rounded-lg bg-teal-400 hover:bg-teal-800 focus:ring-4 focus:ring-teal-300 dark:bg-teal-400 dark:hover:bg-teal-700 dark:focus:ring-teal-800">Subscribe</button>
         </div>
       </div>
       <div className="mx-auto max-w-screen-sm text-sm text-left text-gray-400 newsletter-form-footer dark:text-gray-200">We care about the protection of your data. <a href="#" className="font-medium text-primary-600 dark:text-primary-500 hover:underline">Read our Privacy Policy</a>.</div>

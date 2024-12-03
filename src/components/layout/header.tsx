@@ -47,10 +47,10 @@ import { useState } from 'react';
           {menuOpen && (
             <nav className="md:hidden absolute top-16 left-0 w-full bg-white shadow-lg z-10">
               <ul className="flex flex-col items-center gap-y-5 py-5">
-              <li><Link href="/" className="hover:bg-amber-400 rounded-2xl px-2">Home</Link></li>
-             <li><Link href="/about" className="hover:bg-amber-400 rounded-2xl px-2">About</Link></li>
-              <li><Link href="/projects" className="hover:bg-amber-400 rounded-2xl px-2">Projects</Link></li>
-              <li><Link href="/contact" className="hover:bg-amber-400 rounded-2xl px-2">Contact</Link></li>
+              <li><Link href="/" className="hover:bg-teal-400 hover:text-white rounded-2xl px-2">Home</Link></li>
+             <li><Link href="/about" className="hover:bg-teal-400 hover:text-white rounded-2xl px-2">About</Link></li>
+              <li><Link href="/projects" className="hover:bg-teal-400 hover:text-white rounded-2xl px-2">Projects</Link></li>
+              <li><Link href="/contact" className="hover:bg-teal-400 hover:text-white rounded-2xl px-2">Contact</Link></li>
               </ul>
             </nav>
           )}
