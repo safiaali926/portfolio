@@ -8,11 +8,12 @@ export default function Project() {
 
       {/* Responsive Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-9 place-items-center">
-        {/* Project Item 1 */}
-        <div className="h-72 w-full sm:w-80 bg-white flex flex-col items-center justify-center m-4 rounded-lg shadow-md">
+       
+         {/* Project Item 7 */}
+         <div className="h-72 w-full sm:w-80 bg-white flex flex-col items-center justify-center m-4 rounded-lg shadow-md">
           <div className="h-48 w-64 relative overflow-hidden mt-3">
             <Image
-              src="/p1.jpeg"
+              src="/hekto.jpeg"
               alt="bg"
               layout="fill"
               objectFit="cover"
@@ -20,7 +21,55 @@ export default function Project() {
             />
           </div>
           <h3 className="pt-5 hover:text-gray-600">
-            <Link href="https://food-website-olive-three.vercel.app/">E-commerce Food Website</Link>
+            <Link href="https://hackathon-ecommerce-phi.vercel.app/">E-Commerce Furniture Website</Link>
+          </h3>
+        </div>
+
+ {/* Project Item 8 */}
+ <div className="h-72 w-full sm:w-80 bg-white flex flex-col items-center justify-center m-4 rounded-lg shadow-md">
+          <div className="h-48 w-64 relative overflow-hidden mt-3">
+            <Image
+              src="/Shiceria.jpeg"
+              alt="bg"
+              layout="fill"
+              objectFit="cover"
+              className="border-2 bg-white border-black rounded-xl"
+            />
+          </div>
+          <h3 className="pt-5 hover:text-gray-600">
+            <Link href="https://shiceria-shoe.vercel.app/">Shiceria - Shoe Website</Link>
+          </h3>
+        </div>
+
+{/* Project Item 10 */}
+<div className="h-72 w-full sm:w-80 bg-white flex flex-col items-center justify-center m-4 rounded-lg shadow-md">
+          <div className="h-48 w-64 relative overflow-hidden mt-3">
+            <Image
+              src="/gmc.jpeg"
+              alt="bg"
+              layout="fill"
+              objectFit="cover"
+              className="border-2 bg-white border-black rounded-xl"
+            />
+          </div>
+          <h3 className="pt-5 hover:text-gray-600">
+            <Link href="https://safiaali926-growthmindsetchallenge-streamlit-app-vomwta.streamlit.app/">Growth Mindset Challenge</Link>
+          </h3>
+        </div>
+
+        {/* Project Item 11 */}
+<div className="h-72 w-full sm:w-80 bg-white flex flex-col items-center justify-center m-4 rounded-lg shadow-md">
+          <div className="h-48 w-64 relative overflow-hidden mt-3">
+            <Image
+              src="/portfolio.jpeg"
+              alt="bg"
+              layout="fill"
+              objectFit="cover"
+              className="border-2 bg-white border-black rounded-xl"
+            />
+          </div>
+          <h3 className="pt-5 hover:text-gray-600">
+            <Link href="https://portfolio21-chi.vercel.app/">Profile Website</Link>
           </h3>
         </div>
 
@@ -101,6 +150,21 @@ export default function Project() {
           </div>
           <h3 className="pt-5 hover:text-gray-600">
             <Link href="https://github.com/safiaali926/ATM-">ATM Machine</Link>
+          </h3>
+        </div>
+ {/* Project Item 1 */}
+        <div className="h-72 w-full sm:w-80 bg-white flex flex-col items-center justify-center m-4 rounded-lg shadow-md">
+          <div className="h-48 w-64 relative overflow-hidden mt-3">
+            <Image
+              src="/p1.jpeg"
+              alt="bg"
+              layout="fill"
+              objectFit="cover"
+              className="border-2 bg-white border-black rounded-xl"
+            />
+          </div>
+          <h3 className="pt-5 hover:text-gray-600">
+            <Link href="https://food-website-olive-three.vercel.app/">E-commerce Food Website</Link>
           </h3>
         </div>
       </div>
