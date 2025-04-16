@@ -45,7 +45,7 @@ export default function Project() {
 <div className="h-72 w-full sm:w-80 bg-white flex flex-col items-center justify-center m-4 rounded-lg shadow-md">
           <div className="h-48 w-64 relative overflow-hidden mt-3">
             <Image
-              src="/gmc.jpeg"
+              src="/passwordapp.jpeg"
               alt="bg"
               layout="fill"
               objectFit="cover"
@@ -53,7 +53,7 @@ export default function Project() {
             />
           </div>
           <h3 className="pt-5 hover:text-gray-600">
-            <Link href="https://safiaali926-growthmindsetchallenge-streamlit-app-vomwta.streamlit.app/">Growth Mindset Challenge</Link>
+            <Link href="https://safiaali926-password-strength-meter-main-mx18lj.streamlit.app/">Password Strength Meter</Link>
           </h3>
         </div>
 

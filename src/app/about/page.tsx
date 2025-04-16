@@ -60,6 +60,18 @@ export default function About() {
         <div className="bg-white h-24 w-48 flex items-center justify-center mt-9">
           <Image src="/github.webp" alt="GitHub" width={200} height={200} className="object-contain p-4" />
         </div>
+
+
+         {/* Skill 9 */}
+         <div className="bg-white h-24 w-48 flex items-center justify-center mt-9">
+          <Image src="/python.png" alt="Python" width={200} height={200} className="object-contain p-4" />
+        </div>
+
+        {/* Skill 10 */}
+        <div className="bg-white h-24 w-48 flex items-center justify-center mt-9">
+          <Image src="/streamlit.png" alt="Streamlit" width={200} height={200} className="object-contain p-4" />
+        </div>
+
       </div>
     </main>
   );
